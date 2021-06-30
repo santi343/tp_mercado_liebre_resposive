@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Roboto;
 }
-
 :root{
     --color-amarillo:#eac926;
     --color-azul:#03264c;
@@ -14,19 +12,15 @@
     --color-grisOscuro:#666;
     --color-grisClaro:#ebebeb;
     --color-verde:#39b54a;    
-
 }
-
 a{
     text-decoration: none;
     color:black;
 }
-
 li{
     list-style: none;
 }
-h2{
-   
+h2{  
     font-size: 24px;
 }
 .precio{
@@ -44,4 +38,7 @@ h2{
     padding: 4px 16px 16px 4px;
     border-radius: 50%;
     border:solid var(--color-verde) 1.5px;
+}
+article {
+    text-align: center;
 }
